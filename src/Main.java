@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
 
         /* zad.1
@@ -14,5 +13,10 @@ public class Main {
         c) stworzyć objekty tych klas i wyświetlić przykładowe wyliczenia
         */
 
+        Kwadrat kwadrat1 = new Kwadrat(88, "kwadrat");
+        System.out.println(kwadrat1);
+
+        Prostokat prostokat1 = new Prostokat(66, 22, "prostokąt");
+        System.out.println(prostokat1);
     }
 }
