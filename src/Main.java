@@ -1,14 +1,11 @@
-
 public class Main {
     public static void main(String[] args) {
 
         /* zad.1
         a) napisać interfejs CzlowiekI,
         b) zadeklarować 2 metody,
-
         c) napisać interfejs StudentI który dziedziczy po interfejsie CzlowiekI,
         d) zadeklarować 3 metody,
-
         e) napisać interfejs PracownikI który dziedziczy po interfejsie CzlowiekI,
         f) zadeklarować 3 metody,
          */
@@ -42,5 +39,21 @@ public class Main {
         b) dokończyć implementację metod z interfejsów,
         c) stworzyć pola w metodzie main() i wywołać metody
         */
+
+        Student student1 = new Student("Barney", "Stinson", 23, "Zarządzania", "Biznes", 887766);
+        student1.toString();
+        Student student2 = new Student("Marshall", "Eriksen", 28, "Administracji", "Prawo", 995533);
+        student2.toString();
+
+        Pracownik pracownik1 = new Pracownik("Ted","Modby", 29, "Wykładowca", "Nauczania", 4);
+        pracownik1.toString();
+        Pracownik pracownik2 = new Pracownik("Lily","Aldrin", 27, "Przedszkolanka", "Nauczania", 3);
+        pracownik2.toString();
+
+        System.out.println(student1);
+        System.out.println(student2);
+
+        System.out.println(pracownik1);
+        System.out.println(pracownik2);
     }
 }
